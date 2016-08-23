@@ -14,33 +14,31 @@ This course focuses on programming strategies and techniques behind procedural a
 
 ## Week 1 - Intro
 * Notes -- LINK TBA
-  * Strings and DOM
-  * DOM manipulation in p5.js
   * Strings in JS
+  * DOM manipulation in p5.js
   * Text input (from user, from file)
   * Client-side vs. Server-side programming
-* [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Week-1-Homework)
 * Git and Github
    * [Coding Rainbow Git / GitHub tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
-   * [Introduction to Git and Command Line by Steve Klise](http://sklise.com/2012/09/22/introduction-to-git/)
-   * [Git workflow for beginners](http://sklise.com/2012/10/07/git-workflow-beginner/)
+   * [Introduction to Git and Command Line](http://sklise.com/2012/09/22/introduction-to-git/) and [Git workflow for beginners](http://sklise.com/2012/10/07/git-workflow-beginner/) by Steve Klise
    * ["Try" Git tutorial](https://try.github.io/levels/1/challenges/1)
-* Github Pages: By no means, is github pages required for hosting your projects.  But it's free and fast and lives on github.  So there are many reasons why you might like to consider it, at least during the homework / experimentation stage / of a project.
+* Github Pages
    * [Coding Rainbow GitHub Pages tutorial 1](https://www.youtube.com/watch?v=bFVtrlyH-kc&index=8&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
    * [Coding Rainbow GitHub Pages tutorial 2 with p5.js](https://www.youtube.com/watch?v=8HPYsDTk17A&index=9&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
    * [A Guide to Github pages](https://www.thinkful.com/learn/a-guide-to-using-github-pages/)
+* [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Week-1-Homework)
 
 ## Week 2 -- Regular Expressions
 
 ## Week 3 -- Data/API Workshop
 * APIs
 * Working with google sheets
-* Parse
+* Parse (doesn't exist anymore, something else?)
 
 ## Week 4 -- Intro to Node and Twitter Bots
 * Server side programming with Node
-* How to do data scraping
-* How to make your own "API"
+* Node data persistence
+* html scraping
 * How to make a Twitter bot
 * Start working on Twitter Bot project
 
