@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Diastic Machine</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="diastic.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      .file {
+        margin-top: 24px;
+        font-weight: bold;
+      }
+
+      .text {
+        border-style: solid;
+        border-width: 1px;
+        padding: 20px;
+      }
+
+      #drop_zone {
+        padding: 20px;
+        border-style: dotted;
+        width: 200px;
+        text-align: center;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Diastic Machine</h1>
+
+    <p>This page takes inspiration from <a href="https://en.wikipedia.org/wiki/Jackson_Mac_Low">Jackson Mac Low</a>'s Diastic Technique.  Following is an excerpted description of the process from <a href="http://amzn.to/2c7j4dp">Virtual Muse: Experiments In Computer Poetry</a> (pgs. 95-96) by       - Charles O. Hartman.</p>
+
+    <blockquote><em>
+      The process began with a striking phrase from Virginia Woolf's The Waves: "ridiculous in Picadilly." He reread the novel, looking for the first word that, like "ridiculous," began with an r; then read the next word following that had (like "ridiculous") i as its second letter; then the next whose third letter was d; and so on until he had "spelled through" the whole phrase. (There were other rules for line breaks, punctuation, and so on.) The resulting text would be made entirely out of Woolf's words but would have none of the usual English syntax.</em>
+    </blockquote>
+
+    <p>
+      <a href="#" id ="sample">use text sample</a>
+    </p>
+
+    <p>
+      <div id="drop_zone">drag a file</div>
+    </p>
+
+    <p>
+      <textarea id = "textinput" rows="10" cols="100">Enter some text</textarea><br/>
+      <button id = "submit">submit</button>
+    </p>
+
+    <p>
+      Enter seed phrase: <input id = "seed" value="seed"></input>
+    </p>
+
+    <p><button id = "clear">clear</button></p>
+
+
+  </body>
+</html>

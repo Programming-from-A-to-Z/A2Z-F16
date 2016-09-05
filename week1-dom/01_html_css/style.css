@@ -1,0 +1,38 @@
+
+
+/*This refers to the entire document body*/
+body {
+  padding: 40px;
+}
+
+
+h1 {
+  font-size: 48pt;
+}
+
+/*This refers to any paragraph tag*/
+p {
+  font-size: 12pt;
+}
+
+
+/*This refers to any element of the class apple*/
+.apple {
+  font-size: 24pt;
+  color: #F0C;
+}
+
+/*This refers to any element of the class pear*/
+.pear {
+  color: #0CF;
+  float: right;
+  padding: 12px;
+  border-style: solid;
+  width: 50%;
+}
+
+/*This refers to the specific element with the id orange*/
+#orange {
+  background-color: #FCE;
+}
+

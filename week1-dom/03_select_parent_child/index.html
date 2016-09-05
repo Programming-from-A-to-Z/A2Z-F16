@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--html is a tree, the first element is html -->
+<html>
+
+  <!-- header is where title, script, and style tags can go -->
+  <head>
+    <meta charset="UTF-8">
+    <title>03_select_parent_child</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+  </head>
+
+  <!-- this is the actual document body, the stuff that will appear on the page -->
+  <body>
+    <h1>Welcome to this page.</h1>
+
+    <p class="apple">This is a paragraph, the CSS class is apple.</p>
+    <p class="pear" id ="banana">This is a paragraph, the CSS class is pear.
+      The id is banana, and p5 is going to add an image of a banana below using <code>select()</code> and <code>parent()</code>.</p>
+    <p class="apple">This is another paragraph, the CSS class is also apple.</p>
+    <p class="apple" id = "orange">This is another paragraph, the CSS class is also apple, but now there is also an id set to orange.</p>
+
+  </body>
+</html>

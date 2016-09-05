@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>04_css_with_p5_style</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      .file {
+        margin-top: 24px;
+        font-weight: bold;
+      }
+
+      .text {
+        border-style: solid;
+        border-width: 1px;
+        padding: 20px;
+      }
+
+      #drop_zone {
+        padding: 20px;
+        border-style: dotted;
+        width: 200px;
+        text-align: center;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Textarea element</h1>
+
+    <p>This example shows how a user can enter text into a textarea element.  Three events are demonstrated here:</p>
+
+    <ul>
+      <li>An event is triggered whenever the user hits a key.</li>
+      <li>An event is triggered whenever the user hits enter.</li>
+      <li>An event is triggered whenever the user clicks the "submit" button.</li>
+    </ul>
+
+    <p>In this example, the DOM elements are written into the HTML file and accessed from p5 using the <code>select()</code> function.</p>
+
+    <h2 id = "greeting">What are your hopes and dreams and fears?</h2>
+
+    <p>
+      <textarea id = "textinput" rows="10" cols="100">Enter some text</textarea>
+    </p>
+
+    <button id = "submit">submit</button>
+
+  </body>
+</html>
