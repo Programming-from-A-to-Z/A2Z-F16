@@ -49,7 +49,7 @@ This course focuses on programming strategies and techniques behind procedural a
 * ngrams and markov chains
 
 ## Week 8 - Text Generation: Grammars
-* Tracery by Tracery
+* Tracery by [Kate Compton](https://github.com/galaxykate)
 * Context free grammars
 
 ## Week 9 - Chrome Extensions
