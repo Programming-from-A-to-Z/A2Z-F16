@@ -65,7 +65,7 @@ This course focuses on programming strategies and techniques behind procedural a
 ## Week 14 - Final Presentations
 
 ## References and Inspiration
-* Moved to [references wiki](https://github.com/shiffman/Programming-from-A-to-Z-F15/wiki/References)
+* Moved to [references wiki](https://github.com/shiffman/A2Z-F16/wiki/References)
 
 ## Tools
 * [p5.js](http://p5js.org)
