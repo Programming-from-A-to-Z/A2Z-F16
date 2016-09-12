@@ -13,19 +13,12 @@ This course focuses on programming strategies and techniques behind procedural a
 * Contact me for an invite to the online slack channel.
 
 ## Week 1 - Intro
-* Notes -- LINK TBA
-  * Strings in JS
-  * DOM manipulation in p5.js
-  * Text input (from user, from file)
-  * Client-side vs. Server-side programming
-* Git and Github
-   * [Coding Rainbow Git / GitHub tutorials](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
-   * [Introduction to Git and Command Line](http://sklise.com/2012/09/22/introduction-to-git/) and [Git workflow for beginners](http://sklise.com/2012/10/07/git-workflow-beginner/) by Steve Klise
-   * ["Try" Git tutorial](https://try.github.io/levels/1/challenges/1)
-* Github Pages
-   * [Coding Rainbow GitHub Pages tutorial 1](https://www.youtube.com/watch?v=bFVtrlyH-kc&index=8&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
-   * [Coding Rainbow GitHub Pages tutorial 2 with p5.js](https://www.youtube.com/watch?v=8HPYsDTk17A&index=9&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
-   * [A Guide to Github pages](https://www.thinkful.com/learn/a-guide-to-using-github-pages/)
+* [Notes and Examples](http://shiffman.net/a2z/intro/)
+* Git, Github, Github pages
+* DOM manipulation in p5.js
+* Strings in JS
+* Text input (from user, from file)
+* Client-side vs. Server-side programming
 * [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Week-1-Homework)
 
 ## Week 2 -- Regular Expressions
@@ -56,7 +49,7 @@ This course focuses on programming strategies and techniques behind procedural a
 * ngrams and markov chains
 
 ## Week 8 - Text Generation: Grammars
-* Tracery by Tracery
+* Tracery by Kate Compton
 * Context free grammars
 
 ## Week 9 - Chrome Extensions
@@ -72,7 +65,7 @@ This course focuses on programming strategies and techniques behind procedural a
 ## Week 14 - Final Presentations
 
 ## References and Inspiration
-* Moved to [references wiki](https://github.com/shiffman/Programming-from-A-to-Z-F15/wiki/References)
+* Moved to [references wiki](https://github.com/shiffman/A2Z-F16/wiki/References)
 
 ## Tools
 * [p5.js](http://p5js.org)
