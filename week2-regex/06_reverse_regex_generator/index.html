@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>RandExp Generator</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="libraries/randexp.min.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      .file {
+        margin-top: 24px;
+        font-weight: bold;
+      }
+
+      .text {
+        border-style: solid;
+        border-width: 1px;
+        padding: 20px;
+      }
+
+      #regex {
+        width: 400px;
+      }
+
+      #drop_zone {
+        padding: 20px;
+        border-style: dotted;
+        width: 200px;
+        text-align: center;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <h1>RandExp.js</h1>
+
+    <p>Create random strings that match a given regular expression: <a href="http://fent.github.io/randexp.js/">randexp.js</a>.
+
+    <p>
+      regex: <input id ="regex" value="(hello|goodbye)\d{3}"/>
+    </p>
+    <p>
+      <button id = "submit">generate</button>
+    </p>
+
+    <p><button id = "clear">clear</button></p>
+
+
+  </body>
+</html>
