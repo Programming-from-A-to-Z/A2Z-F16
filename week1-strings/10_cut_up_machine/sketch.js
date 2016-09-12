@@ -3,17 +3,18 @@
 // https://github.com/shiffman/A2Z-F16
 // http://shiffman.net/a2z
 
-// Many DOM elements
-var dropZone, input, button, sample, clearButton;
-
 // This example also includes a slider
 var slider;
 // Variable to keep track of slider value (a bit redundant)
 var percent = 5;
 
+// Many DOM elements
+var dropZone, input, button, sample, clearButton;
+
 // An array to keep track of all the new DOM elements being added
 var paragraphs = [];
 
+var inputText = '';
 
 function setup() {
 
@@ -24,6 +25,10 @@ function setup() {
   button = select('#submit');
   // What to do when button pressed
   button.mousePressed(handleInput);
+
+  // Slider
+  slider = select("#percentslider");
+  slider.input(changePercent);
 
   // Selected the div which will be the "drop zone"
   // for dragging and dropping files
@@ -41,13 +46,6 @@ function setup() {
   // added
   clearButton = select('#clear');
   clearButton.mousePressed(clearText);
-
-  // Deal with the slider
-  slider = select('#percentslider');
-  // Using a native JS event for when slider changes
-  // May change in p5: https://github.com/processing/p5.js/issues/932
-  slider.elt.addEventListener('input', changePercent);
-
 }
 
 // Load a file for quick testing
@@ -57,9 +55,11 @@ function loadFile() {
 // When the file is loaded
 function fileLoaded(data) {
   var txt = data.join('\n');
+
+  input.html(txt);
   // Note the use of a function that will "process" the text
   // This is b/c the text might come in a number of different ways
-  process(txt);
+  // process(txt);
 }
 
 // Handle dropzone events
@@ -73,7 +73,9 @@ function unHighlight() {
 
 function gotFile(file) {
   if (file.type === 'text') {
-    process(file.data);
+    // process(file.data);
+    inputText += file.data + '\n\n';
+    input.html(inputText);
   } else {
     // In case it's some weird other kind of file
     alert('this is not a text file.');
@@ -85,6 +87,15 @@ function handleInput() {
   process(input.value());
 }
 
+// Clear all the divs with remove()
+function clearText() {
+  input.html('');
+  for (var i = 0; i < paragraphs.length; i++) {
+    paragraphs[i].remove();
+  }
+  paragraphs = [];
+}
+
 // Handle event when slider changes
 function changePercent() {
   var span = select('#percent');
@@ -92,12 +103,4 @@ function changePercent() {
   percent = slider.value();
   // Update the span element to display in browser
   span.html(percent);
-}
-
-// Clear all the divs with remove()
-function clearText() {
-  for (var i = 0; i < paragraphs.length; i++) {
-    paragraphs[i].remove();
-  }
-  paragraphs = [];
 }

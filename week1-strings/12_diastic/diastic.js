@@ -3,9 +3,8 @@
 // https://github.com/shiffman/A2Z-F16
 // http://shiffman.net/a2z
 
-// The cut-up algorithm is performed in this function
+// The diastic algorithm is performed in this function
 function process(data) {
-
 
   // All of the words as an array
   var words = splitTokens(data, ' .,:;!@#$%&*()\n');
@@ -43,14 +42,6 @@ function process(data) {
   var par = createP(output);
   par.class('text');
   paragraphs.push(par);
-
-  // Temporarily overriding splitTokens until
-  // https://github.com/processing/p5.js/pull/931
-  function splitTokens() {
-    var d = (arguments.length > 1) ? new RegExp('[' + arguments[1] + ']', 'g') : /\s/g;
-    return arguments[0].split(d).filter(function(n){return n;});
-  };
-
 }
 
 // A function to shuffle an array

@@ -27,13 +27,6 @@ function process(data) {
   var txt = createP(output);
   txt.class('text');
   paragraphs.push(txt);
-
-  // Temporarily overriding splitTokens until
-  // https://github.com/processing/p5.js/pull/931
-  function splitTokens() {
-    var d = (arguments.length > 1) ? new RegExp('[' + arguments[1] + ']', 'g') : /\s/g;
-    return arguments[0].split(d).filter(function(n){return n;});
-  };
 }
 
 

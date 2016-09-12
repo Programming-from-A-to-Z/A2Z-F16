@@ -36,12 +36,6 @@ function process(data) {
 
   paragraphs.push(par);
 
-  // Temporarily overriding splitTokens until
-  // https://github.com/processing/p5.js/pull/931
-  function splitTokens() {
-    var d = (arguments.length > 1) ? new RegExp('[' + arguments[1] + ']', 'g') : /\s/g;
-    return arguments[0].split(d).filter(function(n){return n;});
-  };
 
 }
 
@@ -51,8 +45,7 @@ function process(data) {
 // the same callback can be used for many elements
 // more about this in future weeks!
 function eraseIt() {
-  // Using this while: https://github.com/processing/p5.js/issues/933
-  if (spacingCheck.elt.checked) {
+  if (spacingCheck.checked()) {
   //if (spacingCheck.checked()) {
     // "removing it by changing the color to match background"
     this.style('color', '#FFF');

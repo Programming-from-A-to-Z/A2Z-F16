@@ -9,6 +9,8 @@ var dropZone, input, button, sample, clearButton;
 // An array to keep track of all the new DOM elements being added
 var paragraphs = [];
 
+var inputText = '';
+
 function setup() {
 
   noCanvas();
@@ -44,9 +46,11 @@ function loadFile() {
 // When the file is loaded
 function fileLoaded(data) {
   var txt = data.join('\n');
+
+  input.html(txt);
   // Note the use of a function that will "process" the text
   // This is b/c the text might come in a number of different ways
-  process(txt);
+  // process(txt);
 }
 
 // Handle dropzone events
@@ -60,7 +64,9 @@ function unHighlight() {
 
 function gotFile(file) {
   if (file.type === 'text') {
-    process(file.data);
+    // process(file.data);
+    inputText += file.data + '\n\n';
+    input.html(inputText);
   } else {
     // In case it's some weird other kind of file
     alert('this is not a text file.');
@@ -74,6 +80,7 @@ function handleInput() {
 
 // Clear all the divs with remove()
 function clearText() {
+  input.html('');
   for (var i = 0; i < paragraphs.length; i++) {
     paragraphs[i].remove();
   }
