@@ -22,7 +22,21 @@ This course focuses on programming strategies and techniques behind procedural a
 * [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Week-1-Homework)
 
 ## Week 2 -- Regular Expressions
-
+* Also
+  * multiple DOMs + multiple event
+  * rita.js -- similar and rhyming, etc.
+* Regular Expressions
+  * meta-characters
+    * position
+    * single character
+    * quantifiers
+    * character classes
+  * Regex in sublime text
+  * Regex in JS: `test()`, `search()`, `match()`, `exec()`
+  * Splitting with regex: `split()`
+  * Replace with regex: `replace()`
+  * [randexp.js](http://fent.github.io/randexp.js/)
+* Homework Assignment -- TBA
 ## Week 3 -- Data/API Workshop
 * APIs
 * Working with google sheets
