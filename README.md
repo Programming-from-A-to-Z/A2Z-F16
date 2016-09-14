@@ -31,7 +31,9 @@ This course focuses on programming strategies and techniques behind procedural a
     * single character
     * quantifiers
     * character classes
-  * Regex in sublime text
+    * alternation
+    * capturing groups and back reference
+  * Regex in atom editor
   * Regex in JS: `test()`, `search()`, `match()`, `exec()`
   * Splitting with regex: `split()`
   * Replace with regex: `replace()`
