@@ -39,6 +39,7 @@ This course focuses on programming strategies and techniques behind procedural a
   * Replace with regex: `replace()`
   * [randexp.js](http://fent.github.io/randexp.js/)
 * Homework Assignment -- TBA
+
 ## Week 3 -- Data/API Workshop
 * APIs
 * Working with google sheets
