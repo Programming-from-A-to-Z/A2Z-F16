@@ -34,7 +34,9 @@ This course focuses on programming strategies and techniques behind procedural a
     * alternation
     * capturing groups and back reference
   * Regex in atom editor
-  * Regex in JS: `test()`, `search()`, `match()`, `exec()`
+  * Regex in JS: 
+      * String: `search()`, `match()`
+      * Regex: `test()`, `exec()`
   * Splitting with regex: `split()`
   * Replace with regex: `replace()`
   * [randexp.js](http://fent.github.io/randexp.js/)
