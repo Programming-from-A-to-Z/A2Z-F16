@@ -6,11 +6,6 @@
 
 // Here is where we are working with a regex
 function process(txt) {
-  // Using match() from String is the simplest way to do this
-  // Regex that matches double words, note use of global flag
-  var regex = /\b(\w+)\b\s+\1\b/g;         
-  var results = txt.match(regex);
-
   // A regex to match any vowel
   // Captured as group #1
   var regex = /([aeiou])/gi;         
