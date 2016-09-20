@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>04_css_with_p5_style</title>
+    <title>RiTa.js</title>
     <script src="libraries/p5.js" type="text/javascript"></script>
 
     <script src="libraries/p5.dom.js" type="text/javascript"></script>
@@ -16,35 +16,30 @@
         padding: 20px;
       }
 
-      .file {
-        margin-top: 24px;
-        font-weight: bold;
-      }
-
       .text {
         border-style: solid;
         border-width: 1px;
         padding: 20px;
       }
-
-      #drop_zone {
-        padding: 20px;
-        border-style: dotted;
-        width: 200px;
-        text-align: center;
-      }
-
     </style>
 
   </head>
   <body>
 
     <h1>Demonstrating Rita Library</h1>
-    
+
     <ul>
       <li><a href="https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html">Penn POS Tagging</a></li>
       <li><a href="http://www.rednoise.org/rita/reference/">RiTa Reference</a></li>
     </ul>
-    
+
+    <h3>Type a sentence</h3>
+
+    <p><input id="sentence" value="The quick brown fox jumped over the lazy dog."/ style="width:400px;"></p>
+    <p>
+      <button id="pos">swap parts of speech</button>
+      <button id="rhyme">swap rhyming words</button>
+    </p>
+
   </body>
 </html>

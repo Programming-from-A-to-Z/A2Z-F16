@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>NLP Compromise</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/nlp_compromise@latest/builds/nlp_compromise.min.js"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      .text {
+        border-style: solid;
+        border-width: 1px;
+        padding: 20px;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Demonstrating nlp-compromise</h1>
+
+    <ul>
+      <li><a href="https://github.com/nlp-compromise/nlp_compromise">nlp-compromise</a></li>
+    </ul>
+
+    <h3>Type a sentence</h3>
+
+    <p><input id="sentence" value="The quick brown fox jumped over the lazy dog."/ style="width:400px;"></p>
+    <p>
+      <button id="pluralize">pluralize nouns</button>
+      <button id="negate">negate</button>
+      <button id="tense">past tense</button>
+    </p>
+
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Wordnik Demo</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>WordNik Demo</h1>
+
+    <p>This demonstrates various ways to get metadata about a word from wordnik.  For more, <a href="http://developer.wordnik.com/docs.html">take a look at the wordnik docs</a>.  Some of the buttons below create content on this page, others just show the raw data in the console.</p>
+
+    <p>
+      enter a word: <input id="word" value="apple"></input>
+    </p>
+
+    <p id = "buttons">
+    <button id="examples">examples</button>
+    <button id="definitions">definitions</button>
+    <button id="audio">pronunciation</button>
+    </p>
+
+    <p id = "results"></p>
+
+  </body>
+</html>

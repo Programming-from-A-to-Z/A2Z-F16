@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Google Sheets Mad Libs</title>
+
+    <script src="libraries/tabletop.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+      .text {
+        border-style: solid;
+        border-width: 1px;
+        padding: 20px;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Google Sheets Mad Libs</h1>
+
+    <p>This page pulls data from a google spreadsheet. The spreadsheet is <a href="https://docs.google.com/spreadsheets/d/1PCuj_nEiwfbd_5pm9aWLWjbRs2mP6v8C45BbWl6WTn0/edit?usp=sharing">here</a>.  The spreadsheet is filled from <a href="http://goo.gl/forms/YxvtgqagVX">this google form</a> but you can also just manually enter data into the spreadsheet.  This only works if you "publish the spreadsheet the web", an option under "File" in google drive.</p>
+
+    <p><button id = "generate">generate</button></p>
+
+    <p id="madlib"></p>
+
+    <p>
+      <iframe src="https://docs.google.com/forms/d/1hVhBkH_-dNLf46YmicLbu-W86HFfh2_hzudJQvjupVc/viewform?embedded=true" width="760" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </p>
+
+  </body>
+</html>
