@@ -44,6 +44,8 @@ This course focuses on programming strategies and techniques behind procedural a
 * [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Week-2-Homework)
 
 ## Week 3 -- Data/API Workshop
+* JSON basics
+  * [Corpora maintained by tinysubversions](https://github.com/dariusk/corpora) 
 * JavaScript libraries
   * [rita.js](https://github.com/dhowe/RiTaJS)
   * [nlp-compromise](https://github.com/nlp-compromise/nlp_compromise)
