@@ -22,6 +22,7 @@ This course focuses on programming strategies and techniques behind procedural a
 * [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Week-1-Homework)
 
 ## Week 2 -- Regular Expressions
+* [Notes and Examples](http://shiffman.net/a2z/regex/)
 * Also
   * multiple DOMs + multiple event
   * rita.js -- similar and rhyming, etc.
@@ -40,12 +41,21 @@ This course focuses on programming strategies and techniques behind procedural a
   * Splitting with regex: `split()`
   * Replace with regex: `replace()`
   * [randexp.js](http://fent.github.io/randexp.js/)
-* Homework Assignment -- TBA
+* [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Week-2-Homework)
 
 ## Week 3 -- Data/API Workshop
-* APIs
-* Working with google sheets
-* Parse (doesn't exist anymore, something else?)
+* JSON basics
+  * [Corpora maintained by tinysubversions](https://github.com/dariusk/corpora) 
+* JavaScript libraries
+  * [rita.js](https://github.com/dhowe/RiTaJS)
+  * [nlp-compromise](https://github.com/nlp-compromise/nlp_compromise)
+* Getting data from APIs
+  * [wordnik](http://developer.wordnik.com/) 
+  * [nytimes api](https://developer.nytimes.com/)
+  * [wikipedia api](https://en.wikipedia.org/w/api.php)
+* Working with google sheets: [tabletop.js](https://github.com/jsoma/tabletop)
+* machine learning as service: [clarafai](https://www.clarifai.com/)
+* Homework TBA
 
 ## Week 4 -- Intro to Node and Twitter Bots
 * Server side programming with Node
