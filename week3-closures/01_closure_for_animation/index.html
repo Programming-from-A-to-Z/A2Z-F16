@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Closure for Animation</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      .box {
+        background-color: #CCC;
+        padding: 16px;
+      }
+
+      #padded {
+        padding-top: 16px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h1>Closure for Animation</h1>
+    
+    <p>A closure is animating these elements.</p>
+
+    <p id="padded">
+      <span id="apple" class="box"></span>
+      <span id="pear" class="box"></span>
+      <span id="orange" class="box"><a href="#" id="click">click</a></span>
+    </p>
+
+
+  </body>
+</html>
