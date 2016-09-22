@@ -6,7 +6,7 @@
 // Developer documentation: http://developer.wordnik.com/
 
 // Main API URL
-var wordnik = 'http://api.wordnik.com/v4/word.json/';
+var wordnik = 'https://api.wordnik.com/v4/word.json/';
 // API Key
 var api_key = '/?api_key=48dd829661f515d5abc0d03197a00582e888cc7da2484d5c7'
 

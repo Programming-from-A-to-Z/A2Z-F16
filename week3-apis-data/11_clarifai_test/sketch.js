@@ -1,6 +1,7 @@
+// A2Z F16
 // Daniel Shiffman
-// Programming from A to Z, Fall 2014
-// https://github.com/shiffman/Programming-from-A-to-Z-F14
+// https://github.com/shiffman/A2Z-F16
+// http://shiffman.net/a2z
 
 var clientID = '9XnrhLXdHu1Dg0TSrK6dImCv-7VzCyhNRKJcl86E';
 var clientSecret = 'hIqUOlreTW0Zlm0rcPR-v9hkfu1oJo9dmbmR3fDK';
@@ -17,46 +18,38 @@ function setup() {
     'client_secret': clientSecret
   }
 
-  // httpPost(baseUrl + 'token', data, success);
-  // function success(response) {
-  //   console.log(response);
-  //   accessToken = response;
-  //   askClarifai();
-  // }
-
-  $.ajax(
-  {
-    'type': 'POST',
-    'url': baseUrl + 'token',
-    'data': data,
-    success: function (response) {
-      console.log(response);
-      accessToken = response;
-      askClarifai();
-    },
-    error: function (err) {
-      console.log(err);
-    }
-  });
-
+  // get authorization token and call askClarifai() on success
+  httpPost(baseUrl + 'token', data, "json", success_token, error);
 
 }
 
 function askClarifai() {
-  $.ajax({
-    url: 'https://api.clarifai.com/v1/tag/',
-    type: 'GET',
-    beforeSend: function(xhr) {
-      xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken.access_token);
-    },
-    data: {
-      url: 'http://shiffman.net/images/dan_shiffman.jpeg'
-    },
-    success: function (response) {
-      console.log(response);
-    },
-    error: function (err) {
-      console.log(err);
-    },
-  });
+  var data = {
+    access_token : accessToken.access_token,
+    url: 'http://shiffman.net/images/dan_shiffman.jpeg'
+  }
+
+  httpGet(baseUrl + 'tag', data, "json", success_tag, error);
+}
+
+function success_token (response) {
+  console.log("success_token");
+  console.log(response);
+  accessToken = response;
+  askClarifai();
+}
+
+function success_tag (response) {
+  console.log("success_tag");
+  console.log(response);
+  results = response["results"];
+  tags = results["0"].result.tag.classes
+  for (var i = 0; i < tags.length; i++) {
+    createP(tags[i]);
+  }
+}
+
+function error (response) {
+  console.log("error");
+  console.log(response);
 }

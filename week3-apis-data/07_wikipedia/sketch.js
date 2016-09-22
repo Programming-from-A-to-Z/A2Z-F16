@@ -23,7 +23,7 @@ function search() {
   var term = input.value();
 
   // URL for querying wikipedia
-  var url = 'http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search='
+  var url = 'https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search='
           + '&search=' + term;
 
   // Query the URL, set a callback

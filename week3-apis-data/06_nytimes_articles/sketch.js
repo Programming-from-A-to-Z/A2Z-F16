@@ -25,7 +25,7 @@ function search() {
   var term = input.value();
 
   // URL for querying the times
-  var url = 'http://api.nytimes.com/svc/search/v2/articlesearch.jsonp?'
+  var url = 'https://api.nytimes.com/svc/search/v2/articlesearch.jsonp?'
           + 'callback=svc_search_v2_articlesearch&api-key=sample-key'
           + '&q=' + term;
 
