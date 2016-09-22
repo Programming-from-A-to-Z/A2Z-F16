@@ -6,7 +6,7 @@ This course focuses on programming strategies and techniques behind procedural a
 - Daniel Shiffman, Tuesdays, 9:00am-11:30am
 - [All class dates](http://help.itp.nyu.edu/curriculum/fall-class-dates)
 - [Office Hours](https://itp.nyu.edu/inwiki/Signup/Shiffman)
-- In addition to the ITP physical class, I am running an online version of the class for [Patreon](patreon.com/codingrainbow) subscribers.  ITP students will receive a slack invite should they want to participate.  YouTube live stream sessions TBA.
+- In addition to the ITP physical class, I am running an online version of the class for [Patreon](https://www.patreon.com/codingrainbow) subscribers.  ITP students will receive a slack invite should they want to participate.  YouTube live stream sessions TBA.
 
 ## Mailing List
 * [Join ITP A2Z Google Group](https://groups.google.com/a/nyu.edu/forum/#!forum/a2z-group/).  This is for the ITP physical class only.
