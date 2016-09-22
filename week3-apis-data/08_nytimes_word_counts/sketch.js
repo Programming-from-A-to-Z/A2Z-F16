@@ -13,7 +13,7 @@ var  start, end, total, w;
 // Make a url that searhces for term appeared in a given year
 function makeURL(term,year) {
   var apikey = '&api-key=sample-key';
-  var api = 'http://api.nytimes.com/svc/search/v2/articlesearch.jsonp?callback=svc_search_v2_articlesearch&';
+  var api = 'https://api.nytimes.com/svc/search/v2/articlesearch.jsonp?callback=svc_search_v2_articlesearch&';
   var query = 'q='+term+'&facet_field=source&begin_date='+year+'0101&end_date='+year+'1231&facet_filter=true';
   var url = api+query+apikey;
   return url;
