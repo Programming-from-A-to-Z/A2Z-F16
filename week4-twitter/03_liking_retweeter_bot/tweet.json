@@ -1,0 +1,334 @@
+{
+  "created_at": "Fri Apr 15 14:29:19 +0000 2016",
+  "id": 720982339854155800,
+  "id_str": "720982339854155778",
+  "text": "RT @colesprouse: I'm stayin at a hotel across from the one used for the Tipton and I straight feel like I'm cheatin. #ItsJudgingMe https://…",
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 3044728393,
+    "id_str": "3044728393",
+    "name": "Mitch Mercurio",
+    "screen_name": "MitchMercurio19",
+    "location": "Plymouth, MI.",
+    "url": null,
+    "description": "Most of our problems are man-made, therefore they can be solved by man as well.",
+    "protected": false,
+    "verified": false,
+    "followers_count": 148,
+    "friends_count": 163,
+    "listed_count": 0,
+    "favourites_count": 1488,
+    "statuses_count": 437,
+    "created_at": "Thu Feb 26 21:19:36 +0000 2015",
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_link_color": "0084B4",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/697386533037461504/Zp-uQa9i_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/697386533037461504/Zp-uQa9i_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/3044728393/1458218332",
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Sat Apr 02 02:39:23 +0000 2016",
+    "id": 716092635325272000,
+    "id_str": "716092635325272064",
+    "text": "I'm stayin at a hotel across from the one used for the Tipton and I straight feel like I'm cheatin. #ItsJudgingMe https://t.co/qdj6yaLoim",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 266336410,
+      "id_str": "266336410",
+      "name": "Cole M. Sprouse",
+      "screen_name": "colesprouse",
+      "location": "Manhattan",
+      "url": "http://instagram.com/colesprouse",
+      "description": "Farm fresh Cold Sprouts delivered right to your door.",
+      "protected": false,
+      "verified": true,
+      "followers_count": 2212752,
+      "friends_count": 174,
+      "listed_count": 1921,
+      "favourites_count": 190,
+      "statuses_count": 1288,
+      "created_at": "Tue Mar 15 02:14:09 +0000 2011",
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": false,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/669652294/91a378c2c25b3478345219618653748c.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/669652294/91a378c2c25b3478345219618653748c.jpeg",
+      "profile_background_tile": true,
+      "profile_link_color": "4A913C",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "FF0000",
+      "profile_use_background_image": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/590200379427659776/McWL9_n5_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/590200379427659776/McWL9_n5_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/266336410/1392443394",
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 125700,
+    "favorite_count": 250442,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "ItsJudgingMe",
+          "indices": [
+            100,
+            113
+          ]
+        }
+      ],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        {
+          "id": 716092620330647600,
+          "id_str": "716092620330647552",
+          "indices": [
+            114,
+            137
+          ],
+          "media_url": "http://pbs.twimg.com/media/CfAScbUWQAAt72U.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CfAScbUWQAAt72U.jpg",
+          "url": "https://t.co/qdj6yaLoim",
+          "display_url": "pic.twitter.com/qdj6yaLoim",
+          "expanded_url": "http://twitter.com/colesprouse/status/716092635325272064/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 600,
+              "h": 800,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 340,
+              "h": 453,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1024,
+              "h": 1365,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 716092620330647600,
+          "id_str": "716092620330647552",
+          "indices": [
+            114,
+            137
+          ],
+          "media_url": "http://pbs.twimg.com/media/CfAScbUWQAAt72U.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CfAScbUWQAAt72U.jpg",
+          "url": "https://t.co/qdj6yaLoim",
+          "display_url": "pic.twitter.com/qdj6yaLoim",
+          "expanded_url": "http://twitter.com/colesprouse/status/716092635325272064/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 600,
+              "h": 800,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 340,
+              "h": 453,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1024,
+              "h": 1365,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en"
+  },
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [
+      {
+        "text": "ItsJudgingMe",
+        "indices": [
+          117,
+          130
+        ]
+      }
+    ],
+    "urls": [],
+    "user_mentions": [
+      {
+        "screen_name": "colesprouse",
+        "name": "Cole M. Sprouse",
+        "id": 266336410,
+        "id_str": "266336410",
+        "indices": [
+          3,
+          15
+        ]
+      }
+    ],
+    "symbols": [],
+    "media": [
+      {
+        "id": 716092620330647600,
+        "id_str": "716092620330647552",
+        "indices": [
+          139,
+          140
+        ],
+        "media_url": "http://pbs.twimg.com/media/CfAScbUWQAAt72U.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/CfAScbUWQAAt72U.jpg",
+        "url": "https://t.co/qdj6yaLoim",
+        "display_url": "pic.twitter.com/qdj6yaLoim",
+        "expanded_url": "http://twitter.com/colesprouse/status/716092635325272064/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 600,
+            "h": 800,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 340,
+            "h": 453,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 1024,
+            "h": 1365,
+            "resize": "fit"
+          }
+        },
+        "source_status_id": 716092635325272000,
+        "source_status_id_str": "716092635325272064",
+        "source_user_id": 266336410,
+        "source_user_id_str": "266336410"
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 716092620330647600,
+        "id_str": "716092620330647552",
+        "indices": [
+          139,
+          140
+        ],
+        "media_url": "http://pbs.twimg.com/media/CfAScbUWQAAt72U.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/CfAScbUWQAAt72U.jpg",
+        "url": "https://t.co/qdj6yaLoim",
+        "display_url": "pic.twitter.com/qdj6yaLoim",
+        "expanded_url": "http://twitter.com/colesprouse/status/716092635325272064/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 600,
+            "h": 800,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 340,
+            "h": 453,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 1024,
+            "h": 1365,
+            "resize": "fit"
+          }
+        },
+        "source_status_id": 716092635325272000,
+        "source_status_id_str": "716092635325272064",
+        "source_user_id": 266336410,
+        "source_user_id_str": "266336410"
+      }
+    ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "filter_level": "low",
+  "lang": "en",
+  "timestamp_ms": "1460730559682"
+}

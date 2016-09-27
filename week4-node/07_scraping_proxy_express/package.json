@@ -1,0 +1,16 @@
+{
+  "name": "06_proxy",
+  "version": "1.0.0",
+  "description": "Express URL proxy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "request": "^2.65.0"
+  }
+}

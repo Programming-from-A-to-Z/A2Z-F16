@@ -1,0 +1,16 @@
+{
+  "name": "sentiment_API",
+  "version": "1.0.0",
+  "description": "Sentiment API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.3"
+  }
+}

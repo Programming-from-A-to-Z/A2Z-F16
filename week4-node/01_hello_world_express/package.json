@@ -1,0 +1,15 @@
+{
+  "name": "01_hello_world_xpress",
+  "version": "1.0.0",
+  "description": "making hello world express example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

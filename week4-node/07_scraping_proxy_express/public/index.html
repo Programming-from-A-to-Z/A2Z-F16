@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Scraping</title>
+
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+      .text {
+        border-style: solid;
+        border-width: 1px;
+        padding: 20px;
+        margin-top: 24px;
+        margin-bottom: 4px;
+      }    
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Scraping</h1>
+
+    <p>This page scrapes data from <a href="http://imdb.com">imdb.com</a>.
+
+    <p>Paste in an IMDB movie url: <input id="url" size="50" value="http://www.imdb.com/title/tt0058331/"></input>
+
+    <p><a href="#" id="submit">fetch data</a></p>
+
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "11_twitter_image_replier_bot",
+  "version": "1.0.0",
+  "description": "Twitter Image Replier Bot Example",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.65.0",
+    "twit": "^2.1.1"
+  }
+}
