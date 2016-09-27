@@ -6,7 +6,7 @@ This course focuses on programming strategies and techniques behind procedural a
 - Daniel Shiffman, Tuesdays, 9:00am-11:30am
 - [All class dates](http://help.itp.nyu.edu/curriculum/fall-class-dates)
 - [Office Hours](https://itp.nyu.edu/inwiki/Signup/Shiffman)
-- In addition to the ITP physical class, I am running an online version of the class for [Patreon](patreon.com/codingrainbow) subscribers.  ITP students will receive a slack invite should they want to participate.  YouTube live stream sessions TBA.
+- In addition to the ITP physical class, I am running an online version of the class for [Patreon](https://www.patreon.com/codingrainbow) subscribers.  ITP students will receive a slack invite should they want to participate.  YouTube live stream sessions TBA.
 
 ## Mailing List
 * [Join ITP A2Z Google Group](https://groups.google.com/a/nyu.edu/forum/#!forum/a2z-group/).  This is for the ITP physical class only.
@@ -44,6 +44,7 @@ This course focuses on programming strategies and techniques behind procedural a
 * [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Week-2-Homework)
 
 ## Week 3 -- Data/API Workshop
+* [Notes and Examples](http://shiffman.net/a2z/data-apis/)
 * JSON basics
   * [Corpora maintained by tinysubversions](https://github.com/dariusk/corpora) 
 * JavaScript libraries
@@ -55,7 +56,7 @@ This course focuses on programming strategies and techniques behind procedural a
   * [wikipedia api](https://en.wikipedia.org/w/api.php)
 * Working with google sheets: [tabletop.js](https://github.com/jsoma/tabletop)
 * machine learning as service: [clarafai](https://www.clarifai.com/)
-* Homework TBA
+* [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Week-3-Homework)
 
 ## Week 4 -- Intro to Node and Twitter Bots
 * Server side programming with Node
