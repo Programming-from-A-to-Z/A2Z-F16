@@ -59,11 +59,14 @@ This course focuses on programming strategies and techniques behind procedural a
 * [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Week-3-Homework)
 
 ## Week 4 -- Intro to Node and Twitter Bots
+* [Notes on Node](http://shiffman.net/a2z/server-node/)
+* [Notes on Twitter Bots](http://shiffman.net/a2z/twitter-bots/)
 * Server side programming with Node
 * Node data persistence
 * html scraping
 * How to make a Twitter bot
 * Start working on Twitter Bot project
+* [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Bot-Project)
 
 ## Week 5 - Text Analysis Workshop
 * In class, we'll build a simple concordance together as well as demonstrate and discuss TF/IDF and Bayesian analysis.
