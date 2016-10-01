@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TF-IDF</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="tfidf.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      .file {
+        margin-top: 24px;
+        font-weight: bold;
+      }
+
+      .text {
+        border-style: solid;
+        border-width: 1px;
+        padding: 20px;
+      }
+
+      #drop_zone {
+        padding: 20px;
+        border-style: dotted;
+        width: 200px;
+        text-align: center;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+
+    <h1>TF-IDF</h1>
+
+    <p>This page demonstrates <a href="http://en.wikipedia.org/wiki/Tf%E2%80%93idf">tf-idf</a> analysis.  Drag and drop a collection of text files.  You can then click on any filename to perform tf-idf on that particular file (relative to all the files).  This won't work if you only upload one file.   <a href="https://github.com/shiffman/A2Z-F15/tree/gh-pages/week5/02_tf-idf">File issues and view source on github.</a></p>
+
+    <p>
+      <a href="#" id ="sample">text samples</a>
+    </p>
+
+    <p>
+      <div id="drop_zone">drag files<br/>(need more than one)</div>
+    </p>
+
+    <p>
+      <ol id="list">
+
+      <ol>
+    </p>
+
+    <p id = "results">
+
+    </p>
+
+  </body>
+</html>

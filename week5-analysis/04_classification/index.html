@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Naive Bayes Classifier</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="classifier.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      .file {
+        margin-top: 24px;
+        font-weight: bold;
+      }
+
+      .text {
+        border-style: solid;
+        border-width: 1px;
+        padding: 20px;
+        margin-bottom: 12px;
+      }
+
+      .container {
+        padding: 48px;
+        width: 800px;
+      }
+
+      .drop_zone {
+        padding: 20px;
+        border-style: dotted;
+        text-align: center;
+        margin-right: 8px;
+        display: inline;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+  <h1>Naive Bayes Classifier</h1>
+
+  <p>This page demonstrates naive bayes text classification.  To process very large data sets, this should really be a server-side application.  But this demonstrates the basic idea.  This is based on Paul Graham's <a href="http://www.paulgraham.com/spam.html">plan for spam</a>.  Instead of spam, however, this simply tries to categorize a text as either A or B.  First select training files and then you can select a file for the classifier to guess.  <a href="https://github.com/shiffman/A2Z-F15/tree/gh-pages/week5/05_naive_bayes_classifier">File issues and view source on github.</a></p>
+
+    <p>
+      <button id ="sample_files">load with sample spam/ham training files</button>
+      <button id ="sample_guess">run sample file guesses</button>
+    </p>
+
+  <div class="container">
+      <div class="drop_zone" id="dropA">Drop files for category A training</div>
+      <div class="drop_zone" id="dropB">Drop files for category B training</div>
+      <div class="drop_zone" id="guess">Drop files to guess here.</div>
+  </div>
+
+  </body>
+</html>
+

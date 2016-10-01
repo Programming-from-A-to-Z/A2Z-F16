@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>RiTa Syllable Count</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="libraries/rita-full.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      .text {
+        border-style: solid;
+        border-width: 1px;
+        padding: 16px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+  <h1>RiTa Syllable Count</h1>
+
+  <p>This page demonstrates how to get the syllables with <a href="https://github.com/dhowe/RiTaJS">RiTaJS</a>  by <a href="http://rednoise.org/~dhowe/">Daniel Howe</a>.  <a href="https://github.com/shiffman/A2Z-F15/tree/gh-pages/week5/03_rita_basics">File issues and view source on github.</a></p>
+
+
+  <p>
+    <input type="text" value="syllables" id="word"></input>
+    <button id="analyze">Get syllable count!</button>
+  </p>
+
+  <p>
+    <button id="clear">clear</button>
+  </p>
+
+  </body>
+</html>
