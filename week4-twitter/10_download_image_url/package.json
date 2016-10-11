@@ -1,0 +1,12 @@
+{
+  "name": "10_download_image",
+  "version": "1.0.0",
+  "description": "Download image example",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
