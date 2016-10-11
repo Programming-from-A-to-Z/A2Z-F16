@@ -22,5 +22,6 @@ function download(url, filename) {
 
   function finished() {
     console.log('downloaded to: ' + filename);
+    // This is where you could upload the image to twitter and post a tweet
   }
 }
