@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Many API calls demo</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="concordance.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      p {
+        line-height: 40px;
+      }
+      .count {
+        padding: 8px;
+        margin-right: 4px;
+        background-color: #CCC;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Many many API calls</h1>
+
+    <p>This demonstrates various ways to load data one at a time from thousands of words.  In order not to overwhelm the wordnik API or lock up the browser, each API call is made after a delay from the previous one.  The API used here is <a href="http://developer.wordnik.com/docs.html">wordnik</a>.
+
+    <p id = "results"></p>
+
+  </body>
+</html>

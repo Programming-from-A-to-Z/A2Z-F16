@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Markov 1</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="markov.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      #output {
+        background-color: #EEE;
+        padding: 8px;
+        font-size: 16pt;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Markov Chains</h1>
+
+    <p>This page demonstrates generating text from a Markov chain.  The program reads in text from <a href="http://natureofcode.com"><em>The Nature of Code</em></a> and text from <a href="http://www.gutenberg.org/ebooks/1514"><em>A Midsummer Night's Dream</em></a> generates a new text from character-based "n-gram" probabilities from the source texts.  Each text is weighted accordingly to the slider below.  <a href="https://github.com/shiffman/A2Z-F15/issues">File issues</a> and <a href="https://github.com/shiffman/A2Z-F15/tree/gh-pages/week7/05_markov_mixer">view source</a> on github</a>.</p>
+
+    <p>nature of code<input id="slider" type="range" min="0" max="100"></input>shakespeare</p> 
+    <p><button id = "button">Markov it</button></p>
+   
+    <p id="output"></p>
+  </body>
+</html>

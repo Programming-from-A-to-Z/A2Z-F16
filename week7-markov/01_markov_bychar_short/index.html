@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Markov 1</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="markov.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Markov Chains</h1>
+
+    <p>This page demonstrates generating text from a Markov chain.  The program reads this <a href="itp.txt">text file</a> and generates new names based on character-based "n-gram" probabilities from the source text. <a href="https://github.com/shiffman/A2Z-F15/issues">File issues</a> and <a href="https://github.com/shiffman/A2Z-F15/tree/gh-pages/week7/01_markov_bychar_short">view source</a> on github</a>.</p>
+
+    <p><button id = "button">rename itp</button></p>
+    <h3 id = "name">Interactive Telecommunications Program</h3>
+    
+
+  </body>
+</html>

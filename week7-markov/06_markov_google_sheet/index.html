@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Markov 1</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/tabletop.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="markov.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      #name {
+        font-size: 48pt;
+      }
+
+      #button {
+        padding: 8px;
+        font-size: 12pt;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Markov Chains</h1>
+
+    <p>This example is identical to <a href="../01_markov_bychar_short">the first basic example</a> with a few exceptions.</p>
+
+    <ol>
+      <li>Using <a href="https://github.com/jsoma/tabletop">tabletop.js</a> this page reads data from a <a href="https://docs.google.com/spreadsheets/d/1z3RN9vPeVvWZSQVkzqI7m0FXqSI6dXAmY8HQi5NXqNo/pubhtml">google spreadsheet</a> (which can be submitted to from <a href="http://goo.gl/forms/hwSX7MPMCP">this form</a>.)</li>
+      <li>The <a href="https://en.wikipedia.org/wiki/N-gram">n-gram</a> <em>n</em> can be adjusted with a slider.</li>
+    </ol>
+
+    <p><a href="https://github.com/shiffman/A2Z-F15/issues">File issues</a> and <a href="https://github.com/shiffman/A2Z-F15/tree/gh-pages/week7/06_markov_google_sheet">view source</a> on github</a>.</p>
+
+    <p><input id="slider" type="range" min="2" max="10" value="3"></input><br/>
+      order: <span id="order">3</span> (lower more nonsensy)</p>
+    <p><button id = "button">rename itp</button></p>
+
+    <p id = "name">Interactive Telecommunications Program</p>
+    
+
+  </body>
+</html>

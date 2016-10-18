@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Markov 1</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="libraries/rita-full.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="markovword.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      .markov {
+        padding: 16px;
+        background-color: #EEE;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Markov Chains</h1>
+
+    <p>This page demonstrates generating text from a Markov chain.  The program reads in text from the box below and generates new text based on word-based "n-gram" probabilities from the source text.  However, the words themselves aren't used and instead the n-grams are sequenced by "parts of speech."  A separate list of words by parts of speech is maintained and substituted in afterwards.  <a href="https://github.com/shiffman/A2Z-F15/issues">File issues</a> and <a href="https://github.com/shiffman/A2Z-F15/tree/gh-pages/week7/04_markov_pos">view source</a> on github</a>.</p>
+
+
+    <p>
+      <textarea id="text" cols="100" rows="15">A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multicoloured arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the sun. A rainbow does not exist at one particular location. Many rainbows exist; however, only one can be seen depending on the particular observer's viewpoint as droplets of light illuminated by the sun. All raindrops refract and reflect the sunlight in the same way, but only the light from some raindrops reaches the observer's eye. This light is what constitutes the rainbow for that observer. The whole system composed by the sun's rays, the observer's head, and the (spherical) water drops has an axial symmetry around the axis through the observer's head and parallel to the sun's rays. The rainbow is curved because the set of all the raindrops that have the right angle between the observer, the drop, and the sun, lie on a cone pointing at the sun with the observer at the tip. The base of the cone forms a circle at an angle of 40–42° to the line between the observer's head and their shadow but 50% or more of the circle is below the horizon, unless the observer is sufficiently far above the earth's surface to see it all, for example in an aeroplane (see above). Alternatively, an observer with the right vantage point may see the full circle in a fountain or waterfall spray.</textarea>
+    </p>
+
+    <p>
+      <button id="generate">generate</button>
+      <button id="clear">clear</button>
+    </p>
+
+    <p id ="results"></p>
+  </body>
+</html>
+
