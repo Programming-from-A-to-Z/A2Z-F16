@@ -1,6 +1,6 @@
 // A2Z F15
 // Daniel Shiffman
-// https://github.com/shiffman/A2Z-F15
+// https://github.com/shiffman/
 
 // Arrays of words to be used in replacing
 var four = ["text", "golf", "rain"];

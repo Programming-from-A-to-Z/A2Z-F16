@@ -45,13 +45,13 @@
 
     <h1>Regex Testing</h1>
 
-<p>This is a walk-through of regex functionality in JS from <a href="https://github.com/shiffman/A2Z-F15">Programming from A to Z</a>.  To use this you'll need to see the results in the browser's JavaScript console.</p>
+<p>This is a walk-through of regex functionality in JS from <a href="https://github.com/shiffman/">Programming from A to Z</a>.  To use this you'll need to see the results in the browser's JavaScript console.</p>
 
-<p><a href="https://github.com/shiffman/A2Z-F15/tree/gh-pages/week3/01_regexbasics">source on github</a></p>
+<p><a href="https://github.com/shiffman/A2Z-F16">File issues and view source on github</a></p>
 
 <div class="container">
    <p>The function <code>test()</code> returns true or false if the regex finds a match:</p>
-<div id="editor1" class="editor">var txt = 'This is a test of regular expressions.';  
+<div id="editor1" class="editor">var txt = 'This is a test of regular expressions.';
 var regex = /test/;
 var results = regex.test(txt);
 console.log(results);</div>
@@ -60,7 +60,7 @@ console.log(results);</div>
 
 <div class="container">
   <p>The function <code>search()</code> returns the index of a match:</p>
-<div id="editor2" class="editor">var txt = 'This is a test of regular expressions.';  
+<div id="editor2" class="editor">var txt = 'This is a test of regular expressions.';
 var regex = /test/;
 var results = txt.search(regex);
 console.log(results);</div>
@@ -69,7 +69,7 @@ console.log(results);</div>
 
 <div class="container">
   <p>The string function <code>match()</code> returns all the data around a match, the match, any captured groups, the index of the match, and input text.</p>
-<div id="editor3" class="editor">var txt = 'This is a test of regular expressions.';  
+<div id="editor3" class="editor">var txt = 'This is a test of regular expressions.';
 var regex = /test (of)/;
 var results = txt.match(regex);
 console.log(results);</div>
@@ -79,7 +79,7 @@ console.log(results);</div>
 
 <div class="container">
   <p>The function <code>exec()</code> does exactly the same thing, returning all the data around a match.</p>
-    <div id="editor4" class="editor">var txt = 'This is a test of regular expressions.';  
+    <div id="editor4" class="editor">var txt = 'This is a test of regular expressions.';
 var regex = /test/;
 var results = regex.exec(txt);
 console.log(results);</div>
@@ -88,18 +88,18 @@ console.log(results);</div>
 
 <div class="container">
   <p>The difference between <code>match()</code> and <code>exec()</code> becomes apparent when using the global flag. <code>match()</code> returns an array of all the matches, but does not include the captured groups.</p>
-    <div id="editor5" class="editor">var txt = 'Now another test including phone numbers: 212-555-1234 and 917-555-4321 and 646.555.9876.';  
+    <div id="editor5" class="editor">var txt = 'Now another test including phone numbers: 212-555-1234 and 917-555-4321 and 646.555.9876.';
 var regex = /(\d+)[-.]\d+[-.]\d+/g;
-var results = txt.match(regex);       
+var results = txt.match(regex);
 console.log(results);</div>
     <p><button id="run5">run</button></p>
 </div>
 
 <div class="container">
   <p>If you want to get all of the captured groups with the global flag, you can use <code>exec()</code> in a loop.  <code>exec()</code> will return all the data around each match each time it is called and <code>null</code> when no more matches <area></area> found.</p>
-    <div id="editor6" class="editor">var txt = 'Now another test including phone numbers: 212-555-1234 and 917-555-4321 and 646.555.9876.';  
+    <div id="editor6" class="editor">var txt = 'Now another test including phone numbers: 212-555-1234 and 917-555-4321 and 646.555.9876.';
 var regex = /(\d+)[-.]\d+[-.]\d+/g;
-var results = regex.exec(txt);          
+var results = regex.exec(txt);
 while (results !== null) {
   console.log(results);
   results = regex.exec(txt);
@@ -109,8 +109,8 @@ while (results !== null) {
 
 <div class="container">
   <p>Another special function you can use with a regular expression is <code>replace()</code>  The first argument is a regular expression to match text you would like to replace.</p>
-    <div id="editor7" class="editor">var txt = 'Replace every time the word "the" appears with the word ze.'; 
-var regex = /\bthe\b/g;  
+    <div id="editor7" class="editor">var txt = 'Replace every time the word "the" appears with the word ze.';
+var regex = /\bthe\b/g;
 var replaced = txt.replace(regex, 'ze');
 console.log(txt);
 console.log(replaced);</div>
@@ -119,8 +119,8 @@ console.log(replaced);</div>
 
 <div class="container">
   <p>The replacement text can also include back references to captured groups in the regular expression.  A common scenario is matching text between tags, changing the tags, but keeping the same text.</p>
-    <div id="editor8" class="editor">var txt = 'This is some markdown where text surrounded by an * is *italicized*.'  
-         +  '*one* two *three* four five *six*.'; 
+    <div id="editor8" class="editor">var txt = 'This is some markdown where text surrounded by an * is *italicized*.'
+         +  '*one* two *three* four five *six*.';
 var regex = /\*(\w+)\*/gi;
 
 // We can use captured groups in the replacement string by referencin $ and the group #
@@ -132,7 +132,7 @@ console.log(replaced);</div>
 
 <div class="container">
   <p>One of the most powerful things you can do with <code>replace()</code> is pass a callback function as the second argument.  Instead of just replacing with a string/regex, you can perform complex logic inside a function to generate a string and return that string as the replacement value.  The callback function receives arguments: full match, followed by captured groups.</p>
-    <div id="editor9" class="editor">var txt = 'Reverse the case of any words that start with a Capital Letter.'; 
+    <div id="editor9" class="editor">var txt = 'Reverse the case of any words that start with a Capital Letter.';
 var regex = /([A-Z])(\w+)/g;
 function replacer(match, group1, group2) {
   return group1.toLowerCase() + group2.toUpperCase();
@@ -144,8 +144,8 @@ console.log(replaced);</div>
 </div>
 
 <div class="container">
-  <p>Finally, in <a href="http://shiffman.github.io/A2Z-F15/week2/notes.html">my week 2 notes</a>, I described how the p5 methods <code>split()</code> and <code>splitTokens</code> chop a text up into "tokens", separated by a delimiter.  From now on, I'll be using the native JavaScript <code>split()</code> function which is part of the <code>String</code> object.  This <code>split()</code> function takes a regular expression as an argument — anything that matches that regular expression acts as a delimiter.  If the regular expression is contained in a capturing group, the delimiters are included in the returned array.</p>
-    <div id="editor10" class="editor">var txt = 'It was a dark, and stormy, very very stormy - did I say stormy? - night.'; 
+  <p>Finally, in <a href="http://shiffman.net/a2z/regex">my regular expression notes</a>, I described how the p5 methods <code>split()</code> and <code>splitTokens</code> chop a text up into "tokens", separated by a delimiter.  From now on, I'll be using the native JavaScript <code>split()</code> function which is part of the <code>String</code> object.  This <code>split()</code> function takes a regular expression as an argument — anything that matches that regular expression acts as a delimiter.  If the regular expression is contained in a capturing group, the delimiters are included in the returned array.</p>
+    <div id="editor10" class="editor">var txt = 'It was a dark, and stormy, very very stormy - did I say stormy? - night.';
 var tokens     = txt.split(/[\s,-?.]+/);
 var tokensKeep = txt.split(/([\s,-?.]+)/);
 console.log(txt);

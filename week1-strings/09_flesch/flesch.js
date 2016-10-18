@@ -1,6 +1,6 @@
 // A2Z F15
 // Daniel Shiffman
-// https://github.com/shiffman/A2Z-F15
+// https://github.com/shiffman/
 
 
 // Since there is a lot of code to process and analyze
