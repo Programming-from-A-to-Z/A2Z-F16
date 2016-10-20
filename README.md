@@ -80,9 +80,16 @@ This course focuses on programming strategies and techniques behind procedural a
 
 ## Week 6 - Show Twitter Bots
 
-## Week 7 - Text Generation: Markov chains
-* Using google sheets for text input
-* ngrams and markov chains
+## Week 7 - Text Generation: N-Grams and Markov chains
+* [Notes on N-Grams and Markov Chains](http://shiffman.net/a2z/markov)
+* What is an N-Gram?
+* What is Markov Chain?
+  * order
+  * source text and output design
+  * char vs. word n-grams
+  * client-side vs. server-side generation
+* [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Week-7-Homework)
+
 
 ## Week 8 - Text Generation: Grammars
 * Tracery by Kate Compton
