@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>LSystem</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="lsystem.js" type="text/javascript"></script>
+    <script src="turtle.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      .text {
+        padding: 12px;
+        background-color: #CCC;
+        height: 376px;
+        float: right;
+        overflow: scroll;
+        font-size: 50%;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>LSystem</h1>
+
+    <p>This page demonstrates drawing based on an <a href="https://en.wikipedia.org/wiki/L-system">L-System</a>, a system identical to CFG.  The difference here is that each "token" of a CFG sentence is a single character. And those characters are used as instructions for drawing a path in a canvas.  For more, <a href="http://natureofcode.com/book/chapter-8-fractals/#86-l-systems">read section 8.6</a> from <a href="http://natureofcode.com/book/">The Nature of Code</a>.</p>
+
+    <p><a href="https://github.com/shiffman/A2Z-F16/">File issues and view source on github</a>.</p>
+
+    <p id="canvas"><span class="text" id="sentence"></span></p>
+
+    <p><button id = "generate">generate</button> <button id = "clear">clear</button></p>
+
+
+  </body>
+</html>

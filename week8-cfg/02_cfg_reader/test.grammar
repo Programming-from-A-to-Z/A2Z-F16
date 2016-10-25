@@ -1,0 +1,19 @@
+# This grammar is from Allison Parrish
+# https://github.com/aparrish/rwet-examples
+
+# clauses
+S -> NP VP
+S -> Interj NP VP
+NP -> Det N
+NP -> Det N that VP
+NP -> Det Adj N
+VP -> Vtrans NP   # transitive verbs have direct objects
+VP -> Vintr       # intransitive verbs have no direct object
+
+# terminals
+Interj -> oh, | my, | wow, | damn,
+Det -> this | that | the
+N -> amoeba | dichotomy | seagull | trombone | corsage | restaurant | suburb
+Adj -> bald | smug | important | tame | overstaffed | luxurious | blue
+Vtrans -> computes | examines | foregrounds | prefers | interprets | spins
+Vintr -> coughs | daydreams | whines | slobbers | vocalizes | sneezes
