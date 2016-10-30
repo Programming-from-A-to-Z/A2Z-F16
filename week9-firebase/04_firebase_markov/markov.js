@@ -8,7 +8,7 @@
 // Prototype is magic!  By accessing Array.prototype
 // we can augment every single Array object with an new function
 
-// Like python's choice this will return a 
+// Like python's choice this will return a
 // random element from an array
 Array.prototype.choice = function() {
   var i = floor(random(this.length));
@@ -38,7 +38,7 @@ function MarkovGenerator(n, max) {
     // Store the first ngram of this line
     var beginning = text.substring(0, this.n);
     this.beginnings.push(beginning);
-    
+
     // Now let's go through everything and create the dictionary
     for (var i = 0; i < text.length - this.n; i++) {
       var gram = text.substring(i, i + this.n);
@@ -55,10 +55,10 @@ function MarkovGenerator(n, max) {
   // Generate a text from the information ngrams
   this.generate = function() {
 
-    // Get a random  beginning 
+    // Get a random  beginning
     var current = this.beginnings.choice();
     var output = current;
-    
+
     // Generate a new token max number of times
     for (var i = 0; i < this.max; i++) {
       // If this is a valid ngram

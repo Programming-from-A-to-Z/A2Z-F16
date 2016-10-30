@@ -20,13 +20,20 @@ var thesisElevator;
 
 var permabutton;
 
+var database;
+
 function setup() {
   noCanvas();
 
-  // Start parse
-  // See: https://parse.com/apps/quickstart
-  Parse.initialize("63MFKUwjDE4syXL3vr3hFJw6Ic5brmF7VfHbJgti", 
-    "P9eoSLPUbdkVLr60iYHd58iD4Jje2fgrFXHiN5Oc");
+  var config = {
+    apiKey: "AIzaSyA-VyZJOZVqXZj82wvVMkfJedDEhqXcIh8",
+    authDomain: "a2zitp-6519b.firebaseapp.com",
+    databaseURL: "https://a2zitp-6519b.firebaseio.com",
+    storageBucket: "a2zitp-6519b.appspot.com",
+    messagingSenderId: "363965061200"
+  };
+  firebase.initializeApp(config);
+  database = firebase.database();
 
   var params = getURLParams();
   if (params.id) {
@@ -69,10 +76,10 @@ function process(data) {
     if (elevator) {
       // Doing some cleanup to get rid of nonsense text
       // This is a somewhat terrible job
-      elevator = elevator.replace(/&lt;/g,'<');
-      elevator = elevator.replace(/&gt;/g,'>');
-      elevator = elevator.replace(/&.*?;/g,'');
-      elevator = elevator.replace(/<.*?>/g,'');
+      elevator = elevator.replace(/&lt;/g, '<');
+      elevator = elevator.replace(/&gt;/g, '>');
+      elevator = elevator.replace(/&.*?;/g, '');
+      elevator = elevator.replace(/<.*?>/g, '');
       // Feed in elevator pitches
       elevatorMarkov.feed(elevator);
     }
@@ -80,41 +87,32 @@ function process(data) {
 }
 
 function loadThesis(id) {
-  // What's the name of the object we're looking for
-  var Thesis = Parse.Object.extend("Thesis");
+  var ref = database.ref("theses/" + id);
+  ref.on("value", gotThesis, errData);
 
-  // Start a query
-  var query = new Parse.Query(Thesis);
-
-  // Need a success and error callback
-  var callbacks = {
-    // success callback is more complex, moving out of here
-    success: gotThesis,
-    // Just log the error if it doesn't work
-    error: function(object, error) {
-      console.log(error);
-    }
+  function errData(error) {
+    console.log("Something went wrong.");
+    console.log(error);
   }
-  // get() is how to ask by id
-  query.get(id, callbacks);
-}
 
-// The data comes back as an array 
-function gotThesis(data) {
+  // The data comes back as an array
+  function gotThesis(data) {
+    var thesis = data.val();
 
-  // Generate a title
-  var title = select('#title');
-  title.html(data.attributes.title);
+    // Generate a title
+    var title = select('#title');
+    title.html(thesis.title);
 
-  // And a decription
-  var description = select('#description');
-  description.html(data.attributes.description);
+    // And a decription
+    var description = select('#description');
+    description.html(thesis.description);
 
-  // In the response is an id
-  // We can use that id to make a "permalink" to this sketch
-  var a = createA('?id='+data.id, 'permalink');
-  a.id('perma');
-  a.parent('permalink');
+    // In the response is an id
+    // We can use that id to make a "permalink" to this sketch
+    var a = createA('?id=' + id, 'permalink');
+    a.id('perma');
+    a.parent('permalink');
+  }
 }
 
 function saveThesis() {
@@ -124,34 +122,35 @@ function saveThesis() {
     description: thesisElevator
   };
 
-  // This is the name of the object "type"
-  var Thesis = Parse.Object.extend("Thesis");
-  // Make a new instance
-  var thesis = new Thesis();
-  // Save that data and a callback for when completed
-  thesis.save(data).then(finished);
+  var theses = database.ref('theses');
+  var thesis = theses.push(data, finished);
+  console.log("Firebase generated key: " + thesis.key);
 
   // Reload the data for the page
-  function finished(response) {
-    console.log('Data saved successfully ' + response.id);
+  function finished(err) {
+    if (err) {
+      console.log("ooops, something went wrong.");
+      console.log(err);
+    } else {
+      console.log('Data saved successfully');
+      var previous = select('#perma');
+      if (previous) {
+        previous.remove();
+      }
 
-    var previous = select('#perma');
-    if (previous) {
-      previous.remove();
+      // In the response is an id
+      // We can use that id to make a "permalink" to this sketch
+      var a = createA('?id=' + thesis.key, 'permalink');
+      a.id('perma');
+      a.parent('permalink');
     }
-
-    // In the response is an id
-    // We can use that id to make a "permalink" to this sketch
-    var a = createA('?id='+response.id, 'permalink');
-    a.id('perma');
-    a.parent('permalink');
   }
 }
 
 
 
 function generate() {
- 
+
   // Clear permalink
   var previous = select('#perma');
   if (previous) {
