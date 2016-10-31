@@ -35,7 +35,7 @@ This course focuses on programming strategies and techniques behind procedural a
     * alternation
     * capturing groups and back reference
   * Regex in atom editor
-  * Regex in JS: 
+  * Regex in JS:
       * Regex: `test()`, `exec()`
       * String: `match()`
   * Splitting with regex: `split()`
@@ -46,12 +46,12 @@ This course focuses on programming strategies and techniques behind procedural a
 ## Week 3 -- Data/API Workshop
 * [Notes and Examples](http://shiffman.net/a2z/data-apis/)
 * JSON basics
-  * [Corpora maintained by tinysubversions](https://github.com/dariusk/corpora) 
+  * [Corpora maintained by tinysubversions](https://github.com/dariusk/corpora)
 * JavaScript libraries
   * [rita.js](https://github.com/dhowe/RiTaJS)
   * [nlp-compromise](https://github.com/nlp-compromise/nlp_compromise)
 * Getting data from APIs
-  * [wordnik](http://developer.wordnik.com/) 
+  * [wordnik](http://developer.wordnik.com/)
   * [nytimes api](https://developer.nytimes.com/)
   * [wikipedia api](https://en.wikipedia.org/w/api.php)
 * Working with google sheets: [tabletop.js](https://github.com/jsoma/tabletop)
@@ -63,9 +63,6 @@ This course focuses on programming strategies and techniques behind procedural a
 * [Notes on Twitter Bots](http://shiffman.net/a2z/twitter-bots/)
 * [Notes on deploy to heroku](http://shiffman.net/a2z/bot-heroku/)
 * [Notes on deploy to amazon ec2](http://shiffman.net/a2z/bot-ec2/)
-* Server side programming with Node
-* Node data persistence
-* html scraping
 * How to make a Twitter bot
 * Start working on Twitter Bot project
 * [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Bot-Project)
@@ -90,14 +87,30 @@ This course focuses on programming strategies and techniques behind procedural a
   * client-side vs. server-side generation
 * [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Week-7-Homework)
 
-
 ## Week 8 - Text Generation: Grammars
+* [Notes on Context-Free Grammar](http://shiffman.net/a2z/cfg)
 * Tracery by Kate Compton
 * Context free grammars
+* [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Week-8-Homework)
 
-## Week 9 - Chrome Extensions
+## Week 9 - Building your own API in Node
+* Express
+  * serving files
+* data persistence
+  * local json files, databases?
+  * [Firebase](https://firebase.google.com/)
+* html scraping, request package
+* routes
+  * query string vs. "RESTian"
+  * CORS
+  * sending back JSON
+* Text APIs
+  * Your own API (concordance, markov, etc.)
+  * AFINN-111 sentiment analysis ([sentiment node package](https://github.com/thisandagain/sentiment))
+  * spellcheck (with [node natural](https://github.com/NaturalNode/natural))
+  * Bayesian text classification (with [node natural](https://github.com/NaturalNode/natural))
 
-## Week 10 - Building your own API in Node
+## Week 10 - Chrome Extensions
 
 ## Week 11 - Final Project Proposals part 1
 
