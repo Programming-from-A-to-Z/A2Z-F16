@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Spellcheck</title>
+
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Train</h1>
+    <p>
+      <textarea id="textT" cols="50" rows="10">I am feeling very happy today.</textarea>
+    </p>
+    <p>
+      <select id ="category">
+        <option value="happy">happy</option>
+        <option value="sad">sad</option>
+        <option value="confused">confused</option>
+      </select>
+    </p>
+    <p>
+      <button id="submitT">submit</button>
+    </p>
+
+    <h1>Classify</h1>
+    <p>
+      <textarea id="textC" cols="50" rows="10">I am feeling very happy today.</textarea>
+    </p>
+    <p>
+      <button id="submitC">submit</button>
+    </p>
+
+    <p id="classification"></p>
+
+
+
+
+  </body>
+</html>

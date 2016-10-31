@@ -1,0 +1,17 @@
+{
+  "name": "spellcheck_api",
+  "version": "1.0.0",
+  "description": "Spellcheck API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "natural": "^0.4.0"
+  }
+}

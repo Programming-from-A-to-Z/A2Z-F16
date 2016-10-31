@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Spellcheck</title>
+
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        padding: 20px;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Sentiment Analysis</h1>
+
+    <h2>Add word</h2>
+    <p>
+      word: <input value="word" id="word"></input></br>
+      score: <input value="0" id="score"></input>
+    </p>
+    <p>
+      <button id="scoreit">submit</button>
+    </p>
+
+
+    <h2>Analyze</h2>
+
+    <p>
+      <textarea id="text" cols="50" rows="10">I am feeling very happy today.</textarea>
+    </p>
+    <p>
+      <button id="analyze">analyze</button>
+    </p>
+
+    <p id="scoreresult"></p>
+    <p id="comparative"></p>
+    <p id="negative"></p>
+    <p id="positive"></p>
+
+  </body>
+</html>
