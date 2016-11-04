@@ -1,6 +1,7 @@
-// A2Z F15
+// A2Z F16
 // Daniel Shiffman
-// https://github.com/shiffman/A2Z-F15
+// http://shiffman.net/a2z
+// https://github.com/shiffman/A2Z-F16
 
 // Get input from user
 var points = [];
@@ -12,8 +13,7 @@ var database;
 
 function setup() {
 
-  // Start parse
-  // See: https://parse.com/apps/quickstart
+  // Start Firebase
   var config = {
     apiKey: "AIzaSyA-VyZJOZVqXZj82wvVMkfJedDEhqXcIh8",
     authDomain: "a2zitp-6519b.firebaseapp.com",

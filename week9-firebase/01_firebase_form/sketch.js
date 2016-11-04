@@ -1,6 +1,7 @@
-// A2Z F15
+// A2Z F16
 // Daniel Shiffman
-// https://github.com/shiffman/A2Z-F15
+// http://shiffman.net/a2z
+// https://github.com/shiffman/A2Z-F16
 
 // Get input from user
 var fruitInput;
@@ -31,10 +32,10 @@ function setup() {
   submit.mousePressed(sendToFirebase);
 
   // Start loading the data
-  loadParse();
+  loadFirebase();
 }
 
-function loadParse() {
+function loadFirebase() {
   var ref = database.ref("fruits");
   ref.on("value", gotData, errData);
 }
