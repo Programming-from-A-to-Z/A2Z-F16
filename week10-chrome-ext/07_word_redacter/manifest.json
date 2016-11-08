@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Word Redacter",
+  "version": "1.0",
+  "description": "This extensions redacts the word 'the' anywhere it appears on a page.",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Extension Basics Page Action",
+  "version": "1.0",
+  "description": "This extension shows all the pieces of a chrome extension with a page action",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://github.com/*",
+        "https://github.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "page_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

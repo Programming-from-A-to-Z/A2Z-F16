@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "p5 sketch overlay",
+  "description": "This extensions demonstrates how to overlay a canvas on a page using p5.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "matches": ["https://*/*"],
+      "js": ["libraries/p5.js", "libraries/p5.dom.js", "sketch.js"]
+    }
+  ]
+}

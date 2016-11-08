@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "OmniBox TTS",
+  "version": "1.0",
+  "description": "This extension shows how to use the omnibox and speaks whatever you type.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tts"
+  ],
+  "omnibox": { 
+    "keyword": "a2z" 
+  }
+}

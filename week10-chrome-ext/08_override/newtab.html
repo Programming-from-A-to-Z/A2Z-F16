@@ -1,0 +1,40 @@
+<!--
+  This example overrides the default "new tab" page
+  it's just a plain ol' HTML page.
+  But you can use the chrome extensions APIs in the JS file
+-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Word of the Day</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style>
+      .abs-center {
+        text-align: center;
+        bottom: 0;
+        height: 200px;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <div class="abs-center">
+      <h1>Word of the Tab</h1>
+      <h1 id = "word"></h1>
+    </div>
+
+  </body>
+</html>
