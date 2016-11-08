@@ -14,6 +14,7 @@ var sketch = function(p5) {
 
   // The setup function
   p5.setup = function() {
+    console.log('p5 running');
     // Make a canvas that covers the HTML document up to 2000 pixels high
     var h = p5.constrain(document.body.clientHeight, 0, 2000);
     var c = p5.createCanvas(p5.windowWidth, h);

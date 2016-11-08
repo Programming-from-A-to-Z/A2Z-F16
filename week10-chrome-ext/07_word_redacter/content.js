@@ -9,6 +9,7 @@
 // Grab the entire document body
 // This gets an array even though it's likely just one thing
 var everything = document.getElementsByTagName("body");
+console.log('word redactor extension running');
 
 for (var i = 0; i < everything.length; i++) {
   // Look at the full content
