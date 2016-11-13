@@ -113,8 +113,10 @@ This course focuses on programming strategies and techniques behind procedural a
 ## Week 10 - Chrome Extensions
 
 ## Week 11 - Final Project Proposals part 1
+* [Proposal links and schedule](https://github.com/shiffman/A2Z-F16/wiki/Final-Project-Proposals)
 
 ## Week 12 - Final Project Proposals part 2
+* [Proposal links and schedule](https://github.com/shiffman/A2Z-F16/wiki/Final-Project-Proposals)
 
 ## Week 13 - User Testing
 
