@@ -94,6 +94,8 @@ This course focuses on programming strategies and techniques behind procedural a
 * [Homework Assignment](https://github.com/shiffman/A2Z-F16/wiki/Week-8-Homework)
 
 ## Week 9 - Building your own API in Node
+* [Notes on API in Node](http://shiffman.net/a2z/node-api/)
+* [Notes on Firebase](http://shiffman.net/a2z/firebase)
 * Express
   * serving files
 * data persistence
@@ -111,6 +113,7 @@ This course focuses on programming strategies and techniques behind procedural a
   * Bayesian text classification (with [node natural](https://github.com/NaturalNode/natural))
 
 ## Week 10 - Chrome Extensions
+* [Notes on chrome extensions](http://shiffman.net/a2z/chrome-ext/)
 
 ## Week 11 - Final Project Proposals part 1
 * [Proposal links and schedule](https://github.com/shiffman/A2Z-F16/wiki/Final-Project-Proposals)
