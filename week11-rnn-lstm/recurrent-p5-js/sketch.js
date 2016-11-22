@@ -171,7 +171,7 @@ var initModel = function() {
 }
 
 function startLoading() {
-  loadJSON('lstm_100_model.json', loaded);
+  loadJSON('s_model.json', loaded);
   function loaded(data) {
     console.log(data);
     //var mdl = JSON.parse(data);
