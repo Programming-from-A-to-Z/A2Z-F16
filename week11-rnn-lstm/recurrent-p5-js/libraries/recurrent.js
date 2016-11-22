@@ -1,3 +1,7 @@
+// From:
+// https://github.com/karpathy/recurrentjs
+// http://cs.stanford.edu/people/karpathy/recurrentjs/index.html
+
 var R = {}; // the Recurrent library
 
 (function(global) {

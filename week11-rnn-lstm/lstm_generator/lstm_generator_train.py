@@ -1,7 +1,10 @@
-# A2Z-F16
-# Example from: 
+# A2Z F16
+# Daniel Shiffman
+# http://shiffman.net/a2z
+# https://github.com/shiffman/A2Z-F16
+
+# Based entirely on: 
 # https://github.com/fchollet/keras/blob/master/examples/lstm_text_generation.py
-# modified
 
 # At least 20 epochs are required before the generated text
 # starts sounding coherent.

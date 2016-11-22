@@ -1,3 +1,11 @@
+// A2Z F16
+// Daniel Shiffman
+// http://shiffman.net/a2z
+// https://github.com/shiffman/A2Z-F16
+
+// Based entirely on: 
+// https://github.com/karpathy/recurrentjs
+// http://cs.stanford.edu/people/karpathy/recurrentjs/index.html
 
 if (process.argv.length < 3) {
   console.log("I need an text input file and a model file.");
@@ -6,7 +14,6 @@ if (process.argv.length < 3) {
 
 var inputFile = process.argv[2];
 var modelFile = process.argv[3];
-
 
 var R = require('./recurrent');
 

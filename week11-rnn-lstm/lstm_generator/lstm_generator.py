@@ -1,5 +1,9 @@
-# A2Z-F16
-# Example from: 
+# A2Z F16
+# Daniel Shiffman
+# http://shiffman.net/a2z
+# https://github.com/shiffman/A2Z-F16
+
+# Based entirely on: 
 # https://github.com/fchollet/keras/blob/master/examples/lstm_text_generation.py
 
 # this loads a model from lstm_generator_train

@@ -1,4 +1,12 @@
-var spawn = require('child_process').spawn;
+// A2Z F16
+// Daniel Shiffman
+// http://shiffman.net/a2z
+// https://github.com/shiffman/A2Z-F16
+
+// Based entirely on: 
+// https://github.com/karpathy/recurrentjs
+// http://cs.stanford.edu/people/karpathy/recurrentjs/index.html
+
 var express = require('express');
 
 var app = express();

@@ -1,3 +1,13 @@
+// A2Z F16
+// Daniel Shiffman
+// http://shiffman.net/a2z
+// https://github.com/shiffman/A2Z-F16
+
+// Based entirely on: 
+// https://github.com/karpathy/recurrentjs
+// http://cs.stanford.edu/people/karpathy/recurrentjs/index.html
+
+
 // prediction params
 var sample_softmax_temperature = 1.0; // how peaky model predictions should be
 var max_chars_gen = 100; // max length of generated sentences
@@ -27,7 +37,6 @@ var model = {};
 var txtinput;
 
 var running = false;
-
 
 var interval;
 

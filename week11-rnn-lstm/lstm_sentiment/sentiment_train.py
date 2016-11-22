@@ -1,3 +1,15 @@
+# A2Z F16
+# Daniel Shiffman
+# http://shiffman.net/a2z
+# https://github.com/shiffman/A2Z-F16
+
+# Based entirely on: 
+# https://github.com/thenomemac/IMDB-LSTM-Tutorial/blob/master/imdbLSTM.ipynb
+# https://github.com/fchollet/keras/blob/master/examples/imdb_bidirectional_lstm.py
+
+# Requires
+# http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
+
 from __future__ import print_function
 import time
 import numpy as np
@@ -13,8 +25,6 @@ from keras.preprocessing.text import Tokenizer
 
 max_features = 10000
 max_len = 200  # cut texts after this number of words (among top max_features most common words)
-
-# get dataset and unzip: http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
 
 X_train = []
 y_train = []
