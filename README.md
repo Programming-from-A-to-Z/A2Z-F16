@@ -122,7 +122,7 @@ This course focuses on programming strategies and techniques behind procedural a
 * [Notes on Machine Learning - RNN/LSTM](https://github.com/shiffman/A2Z-F16/wiki/LSTM-RNN-Notes)
 * [Proposal links and schedule](https://github.com/shiffman/A2Z-F16/wiki/Final-Project-Proposals)
 
-## Week 13 - User Testing
+## Week 13 - [User Testing](https://github.com/shiffman/A2Z-F16/wiki/User-Testing)
 
 ## Week 14 - Final Presentations
 
