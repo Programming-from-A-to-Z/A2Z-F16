@@ -4,3 +4,4 @@ config.js
 node_modules/
 aclImdb/
 testdb/
+.idea/
