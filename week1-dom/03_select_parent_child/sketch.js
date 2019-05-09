@@ -7,9 +7,15 @@ function setup() {
   noCanvas();
 
   // Getting the element with the id banana with code
+  //see https://youtu.be/sSQPLIHIzmg?t=2m10s for a discussion of this
+  //using #unicorn as the select
+  //by creating the object (dom element) in js you have access to the object in js
+  // good reference 
   var p1 = select('#banana');
 
   // Creating an element
+  //this will get called in the html
+  //reference https://p5js.org/reference/#/p5/createImage
   var img = createImg('https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bananas_white_background_DS.jpg/320px-Bananas_white_background_DS.jpg');
 
   // Nesting the element inside the banana paragraph element
